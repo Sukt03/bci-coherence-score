@@ -1,0 +1,25 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+torch==2.4.1+cu121
+torchvision==0.19.1+cu121
+numpy==1.26.4
+pandas==2.2.2
+pillow==10.4.0
+opencv-python-headless==4.10.0.84
+scikit-image==0.24.0
+scipy==1.13.1
+matplotlib==3.9.2
+transformers==4.45.2
+accelerate==0.34.2
+sentence-transformers==3.1.1
+timm==1.0.9
+huggingface-hub==0.25.2
+einops==0.8.0
+safetensors==0.4.5
+open-clip-torch==2.26.1
+dreamsim==0.2.1
+lpips==0.1.4
+DISTS-pytorch==0.1
+pyiqa==0.1.15.post2
+ImageReward @ git+https://github.com/THUDM/ImageReward.git@78f8051059b34fef8e0032ccb40561c23a2ddbbb
+pytest==8.3.3
