@@ -1,6 +1,6 @@
-# Lost in Visual Translation: A VLM-Assisted Perceptual-Semantic Coherence Framework for EEG-to-Image Reconstruction
+# Lost in Visual Translation: A VLM-Assisted Perceptual-Semantic Coherence Framework for EEG-to-Image Reconstruction [IJCAI-ECAI 2026]
 
-**[Accepted at IJCAI-ECAI 2026]**
+
 
 This paper is from authors at Mahindra University and was accepted at the
 IJCAI-ECAI 2026 HBAI Workshop.
