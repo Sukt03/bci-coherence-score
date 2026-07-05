@@ -50,19 +50,6 @@ For full metric recomputation from images, provide a manifest with
 `reference_path`/`generated_path` columns, a selected-pairs JSON/JSONL file, or
 the supplied `consensus_rank1_gt_generated/manifest.csv` layout.
 
-For analysis-only reproduction from cached metric artifacts, provide:
-
-- `expanded_metric_scores_clean_with_sbert.csv`
-- `expanded_extra_model_885_clean_with_sbert(1).csv`
-
-For analysis-only reproduction from cached artifacts, also provide:
-
-- `internvl3_eval_runs/full_both_reasoning_bs64_20260529_225955_repaired/pair_scores.jsonl`
-- `vlm_eval_runs/sail_full_both_reasoning_20260530_030620/pair_scores.jsonl`
-- `vlm_eval_runs/ola_full_both_reasoning_20260530_030620_repaired/pair_scores.jsonl`
-- `vlm_eval_runs/ovis_full_both_reasoning_20260530_083349/pair_scores.jsonl`
-- `distill_runs/v4teacher_fusion_siglip_clip_dinov3_mlp_ensemble5_20260601/predictions_all.npz`
-
 ## Environment
 
 Create the recommended conda environment:
