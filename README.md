@@ -31,12 +31,6 @@ recompute the reported computational results from supplied image artifacts.
 - `environment.lock.yml`, `requirements.in`, `requirements-lock.txt`: locked
   environment files for repeatable metric, VLM, and analysis runs.
 
-## Scope
-
-This is a code-first release. Large image datasets, cached model outputs, and
-trained checkpoints are treated as external artifacts so the project stays
-portable. To reproduce paper-scale results, place the required artifacts next to
-this folder or pass their location with `--data-root`.
 
 ## Expected Data Layout
 
